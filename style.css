@@ -1,0 +1,168 @@
+html {
+    background-color: white;
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: lightskyblue;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.search-section {
+    float: left;
+    width: 400px;
+    min-height: 600px;
+    border-radius: 8px;
+    border: solid #ccc 1px;
+    background-color: #f3f3f3;
+    margin: 10px;
+    padding: 10px;
+}
+
+#search-btn {
+    color: #fff;
+    background-color: #357266;
+    border-color: #357266;
+}
+
+/* Causes search button to change color when mouse hovers over it */
+#search-btn:hover {
+    color: #fff;
+    background-color: #0E3B43;
+    border-color: #0E3B43;
+}
+
+.search-history-btn {
+    color: #fff;
+    background-image: linear-gradient(to right, #574D68, #473f53);   
+}
+/* 
+.search-history-btn:hover {
+    color: #fff;
+    background-color: #0E3B43;
+    border-color: #0E3B43;
+} */
+
+.search-history-btn:active {
+    color: #fff;
+    background-color: #0E3B43;
+    border-color: #0E3B43;
+}
+
+.city-stats {
+    min-height: 350px;
+    border: solid #ccc 1px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+}
+
+#current-city{
+    white-space: nowrap;
+    display: inline;
+}
+
+.city-stats div{
+    color: #555;
+    margin: 15px;
+}
+
+#current-uv {
+    white-space: nowrap;
+    display: inline;
+}
+
+#current-uv-value {
+    padding: 3px;
+    color: white;
+    display: inline;
+}
+
+.very-low-uv {
+    border: solid 1px #00a2ff;
+    border-radius: 4px;
+    background-color: #00a2ff;
+}
+
+.low-uv {
+    border: solid 1px #00be00;
+    border-radius: 4px;
+    background-color: #00be00;
+}
+
+.moderate-uv {
+    border: solid 1px #c97200;
+    border-radius: 4px;
+    background-color: #c97200;
+}
+
+.high-uv {
+    border: solid 1px red;
+    border-radius: 4px;
+    background-color: red;
+}
+
+.very-high-uv {
+    border: solid 1px #ff00aa;
+    border-radius: 4px;
+    background-color: #ff00aa;
+}
+
+#forecast-header {
+    overflow: hidden;
+    text-align: left;
+    height: 40px;
+    margin: 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+#container {
+    min-height: 190px;
+    margin: 10px;
+    width: 665px;
+    justify-content: space-between;
+}
+
+.day {
+    background-image: linear-gradient(#357266, #2d6157);
+    height: 190px;
+    float: left;
+    margin: 0;
+    min-width: 125px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.forecast-icon {
+    height: 55px;
+}
+
+.forecast-date,
+.forecast-temp,
+.forecast-humidity {
+    color: white;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
